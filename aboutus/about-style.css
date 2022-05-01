@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@font-face {
+    font-family: 'Bondi';
+    src: url(../fonts/Bondi.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    transition: ease;
+}
+
+
+/* designing heeading part */
+.header{
+    /* background-color: red; */
+    height: 80px;
+    width: 100%;
+    box-shadow: rgba(51, 51, 51, 0.16) 0px 1px 50px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    margin-bottom: 50px;
+}
+
+
+.nav-links{
+    
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    right: 50px;
+    /* width: 100%; */
+    /* background-color: blue; */
+    
+}
+
+.nav-links li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    height: 80px;
+    /* background-color: red; */
+    padding-right: 50px;
+    list-style: none;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    line-height: 2px;
+}
+
+.nav-links li a:hover{
+    text-decoration: underline;
+    color: lightgreen;
+}
+
+/* ----headind part done---- */
+
+.text-description{
+    height: 100%;
+    /* background-color: red; */
+    width: 50%;
+    margin-left: 100px;
+    font-family: Bondi, sans-serif;
+    font-size: 50px;
+}
+
+.text-description h1{
+    margin-top: 100px;
+}
+
+.text-description h2{
+    font-size: 150px;
+}
+
+.detailed-text{
+    padding: 10px 70px;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+}
