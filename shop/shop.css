@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@font-face {
+    font-family: 'Bondi';
+    src: url(../fonts/Bondi.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    transition: ease;
+}
+
+
+/* designing heeading part */
+.header{
+    /* background-color: red; */
+    height: 80px;
+    width: 100%;
+    box-shadow: rgba(51, 51, 51, 0.16) 0px 1px 50px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    margin-bottom: 50px;
+}
+
+
+.nav-links{
+    
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    right: 50px;
+    /* width: 100%; */
+    /* background-color: blue; */
+    
+}
+
+.nav-links li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    height: 80px;
+    /* background-color: red; */
+    padding-right: 50px;
+    list-style: none;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    line-height: 2px;
+}
+
+.nav-links li a:hover{
+    text-decoration: underline;
+    color: lightgreen;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    /* background-color: red; */
+}
+
+.box{
+    /* background-color: blue; */
+    width: 60%;
+    height: 60%;
+    border: 1px solid rgb(159, 153, 153);
+    border-radius: 15px;
+    /* padding: 20px; */
+    box-shadow: rgba(8, 8, 8, 0.16) 0px 1px 50px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    display: flex;
+}
+
+.left-box{
+    /* background-color: red; */
+    height: 77%;
+    margin: 20px 0;
+    padding: 20px 20px;
+    width: 50%;
+}
+
+.left-box h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.left-box p{
+    font-size: 25px;
+}
+
+.left-box i{
+    font-size: 30px;
+}
+.price{
+    margin-top: 30px;
+    font-size: 25px;
+    border: 1px solid black;
+    width: fit-content;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 8px;
+}
+
+.price:hover{
+    background-color: lightgreen;
+}
+
+.right-box{
+    /* background-color: blue; */
+    height: 100%;
+    border-radius: 0 15px 15px 0;
+    width: 50%;
+}
+
+.right-box img{
+    height: 100%;
+    width: 100%;
+    border: 1px solid rgb(159, 153, 153);
+    object-fit: cover;
+}

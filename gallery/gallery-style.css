@@ -98,6 +98,10 @@ BODY {
           align-items: center;
 }
 
+a{
+    text-decoration: none;
+}
+
 IMG {
   z-index: 1;
   grid-column: span 2;
